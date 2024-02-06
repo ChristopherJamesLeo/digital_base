@@ -40,6 +40,8 @@ function activeAni(idx){
 
 // end scroll text ani
 
-// wow js
-new WOW().init();
+// wow j
+console.log("hello");
+// new WOW().init();
+AOS.init();
 // end wow js

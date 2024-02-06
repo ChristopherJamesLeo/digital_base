@@ -1,3 +1,9 @@
+// start loader 
+$(window).on("load",function(){
+    $("#preloader").delay("slow").fadeOut("slow");
+})
+// end loader
+
 $(document).ready(function(){
     window.onscroll = function(){
 

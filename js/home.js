@@ -33,5 +33,6 @@ $(document).ready(function(){
 })
 
 // wow js
-new WOW().init();
+// new WOW().init();
+AOS.init();
 // end wow js

@@ -2744,3 +2744,16 @@ footer{
 
 
 /* end contact page */
+
+
+/* start aos style */
+
+[data-aos="fade-in"].aos-animate {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+  
+[data-aos="fade-in"].aos-animate.aos-init {
+    opacity: 1;
+}
+/* end aos style */
